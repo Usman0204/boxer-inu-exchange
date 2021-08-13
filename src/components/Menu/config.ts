@@ -1,11 +1,11 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
-  {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: 'https://app.sweetswap.finance/',
-  },
+  // {
+  //   label: 'Home',
+  //   icon: 'HomeIcon',
+  //   href: 'https://app.sweetswap.finance/',
+  // },
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -24,22 +24,37 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://app.sweetswap.finance/farms',
+    href: '',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://app.sweetswap.finance/syrup',
+    href: '',
+  },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '',
+  },
+  {
+    label: 'GAMES',
+    icon: 'InfoIcon',
+    href: '',
+  },
+  {
+    label: 'NFT MARKETPLACE',
+    icon: 'NftIcon',
+    href: '',
   },
   // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://pancakeswap.finance/lottery',
+  //   label: 'Blog',
+  //   icon: 'IfoIcon',
+  //   href: '',
   // },
   // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: 'https://pancakeswap.finance/nft',
+  //   label: 'DOCS',
+  //   icon: 'HomeIcon',
+  //   href: '',
   // },
   // {
   //   label: 'Teams & Profile',
@@ -87,25 +102,25 @@ const config: MenuEntry[] = [
   //   icon: 'IfoIcon',
   //   href: 'https://pancakeswap.finance/ifo',
   // },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
+  // {
+  //   label: 'More',
+  //   icon: 'MoreIcon',
+  //   items: [
 
-      {
-        label: 'Github',
-        href: 'https://github.com/SweetSwap',
-      },
-      {
-        label: 'Docs',
-        href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
-      },
-      {
-        label: 'Blog',
-        href: 'https://medium.com/@SweetSwap',
-      },
-    ],
-  },
+  //     {
+  //       label: 'Github',
+  //       href: 'https://github.com/SweetSwap',
+  //     },
+  //     {
+  //       label: 'Docs',
+  //       href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
+  //     },
+  //     {
+  //       label: 'Blog',
+  //       href: 'https://medium.com/@SweetSwap',
+  //     },
+  //   ],
+  // },
 ]
 
 export default config
